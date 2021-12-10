@@ -1,0 +1,310 @@
+Time of producing single small message with empty queue (average of producing 10000 messages) - NON_PERSISTENT
+1: 69045 ns -> 0.069045 ms
+2: 73100 ns -> 0.0731 ms
+3: 66825 ns -> 0.066825 ms
+4: 69225 ns -> 0.069225 ms
+5: 66930 ns -> 0.066930 ms
+6: 66889 ns -> 0.066889 ms
+7: 72841 ns -> 0.072841 ms
+8: 72247 ns -> 0.072247 ms
+9: 72779 ns -> 0.072779 ms
+10: 69627 ns -> 0.069627 ms
+Average: 69950.8 ns -> 0.069951 ms
+
+Time of producing single medium message with empty queue (average of producing 10000 messages) - NON_PERSISTENT
+1: 298401 ns -> 0.298401 ms
+2: 298652 ns -> 0.298652 ms
+3: 292700 ns -> 0.292700 ms
+4: 319145 ns -> 0.319145 ms
+5: 301456 ns -> 0.301456 ms
+6: 315707 ns -> 0.315707 ms
+7: 303115 ns -> 0.303115 ms
+7: 303115 ns -> 0.303115 ms
+8: 304305 ns -> 0.304305 ms
+9: 310867 ns -> 0.310867 ms
+10: 309686 ns -> 0.309686 ms
+Average: 335714.9 ns -> 0.335715 ms
+
+Time of producing single large message with empty queue (average of producing 10000 messages) - NON_PERSISTENT
+1: 871016 ns -> 0.871016 ms
+2: 942351 ns -> 0.942351 ms
+3: 839313 ns -> 0.839313 ms
+4: 849747 ns -> 0.849747 ms
+5: 817780 ns -> 0.817780 ms
+6: 784383 ns -> 0.784383 ms
+7: 848281 ns -> 0.848281 ms
+8: 861676 ns -> 0.861676 ms
+9: 780053 ns -> 0.780053 ms
+10: 799661 ns -> 0.799661 ms
+Average: 839426.1 ns -> 0.839426 ms
+
+****************************************************************************************************
+
+Time of producing single small message with empty queue (average of producing 10000 messages) - PERSISTENT
+1: 1696920 ns -> 1.696920 ms
+2: 1561239 ns -> 1.561239 ms
+3: 1594580 ns -> 1.594580 ms
+4: 1588013 ns -> 1.588013 ms
+5: 1539389 ns -> 1.539389 ms
+6: 1472447 ns -> 1.472447 ms
+7: 2439028 ns -> 2.439028 ms
+8: 1528146 ns -> 1.528146 ms
+9: 1493070 ns -> 1.493070 ms
+10: 1485754 ns -> 1.485754 ms
+Average: 1639868.6 ns -> 1.639869 ms
+
+Time of producing single medium message with empty queue (average of producing 10000 messages) - PERSISTENT
+1: 2702870 ns -> 2.702870 ms
+2: 2762550 ns -> 2.762550 ms
+3: 3101416 ns -> 3.101416 ms
+4: 2665153 ns -> 2.665153 ms
+5: 2643309 ns -> 2.643309 ms
+6: 2711550 ns -> 2.711550 ms
+7: 2595541 ns -> 2.595541 ms
+7: 3022191 ns -> 3.022191 ms
+8: 2689519 ns -> 2.689519 ms
+9: 2631487 ns -> 2.631487 ms
+10: 2595581 ns -> 2.595581 ms
+Average: 3012116.7 ns -> 3.012117 ms
+
+Time of producing single large message with empty queue (average of producing 10000 messages) - PERSISTENT
+1: 3620396 ns -> 3.620396 ms
+2: 3757003 ns -> 3.757003 ms
+3: 3414020 ns -> 3.414020 ms
+4: 3538847 ns -> 3.538847 ms
+5: 3774850 ns -> 3.774850 ms
+6: 3489797 ns -> 3.489797 ms
+7: 3453232 ns -> 3.453232 ms
+8: 3568501 ns -> 3.568501 ms
+9: 3447255 ns -> 3.447255 ms
+10: 3480656 ns -> 3.480656 ms
+Average: 3554455.7 ns -> 3.554456 ms
+
+****************************************************************************************************
+
+Time of consuming single small message (average of consuming 10000 messages)
+1: 69826 ns -> 0.069826 ms
+2: 58650 ns -> 0.05865 ms
+3: 43495 ns -> 0.043495 ms
+4: 41388 ns -> 0.041388 ms
+5: 40952 ns -> 0.040952 ms
+6: 42894 ns -> 0.042894 ms
+7: 43157 ns -> 0.043157 ms
+8: 43257 ns -> 0.043257 ms
+9: 40969 ns -> 0.040969 ms
+10: 45436 ns -> 0.045436 ms
+Average: 47002.4 ns -> 0.047002 ms
+
+Time of consuming single medium message (average of consuming 10000 messages)
+1: 124419 ns -> 0.124419 ms
+2: 149508 ns -> 0.149508 ms
+3: 114003 ns -> 0.114003 ms
+4: 114358 ns -> 0.114358 ms
+5: 118951 ns -> 0.118951 ms
+6: 141887 ns -> 0.141887 ms
+7: 162242 ns -> 0.162242 ms
+8: 124240 ns -> 0.124240 ms
+9: 138596 ns -> 0.138596 ms
+10: 121859 ns -> 0.121859 ms
+Average: 131006.3 ns -> 0.131006 ms
+
+Time of consuming single large message (average of consuming 10000 messages)
+1: 327957 ns -> 0.327957 ms
+2: 302530 ns -> 0.302530 ms
+3: 311648 ns -> 0.311648 ms
+4: 406517 ns -> 0.406517 ms
+5: 348394 ns -> 0.348394 ms
+6: 376177 ns -> 0.376177 ms
+7: 324535 ns -> 0.324535 ms
+8: 316782 ns -> 0.316782 ms
+9: 329157 ns -> 0.329157 ms
+10: 294081 ns -> 0.294081 ms
+Average: 333777.8 ns -> 0.333778 ms
+
+****************************************************************************************************
+
+Time of producing single small message with 100000 messages on the queue (average of producing 10000 messages) - NON_PERSISTENT
+1: 11492 ns -> 0.011492 ms
+2: 11468 ns -> 0.011468 ms
+3: 11193 ns -> 0.011193 ms
+4: 11627 ns -> 0.011627 ms
+5: 11270 ns -> 0.011270 ms
+6: 18749 ns -> 0.018749 ms
+7: 11250 ns -> 0.011250 ms
+8: 10865 ns -> 0.010865 ms
+9: 11591 ns -> 0.011591 ms
+10: 11652 ns -> 0.011652 ms
+Average: 12115.7 ns -> 0.012116 ms
+
+Time of producing single medium message with 100000 messages on the queue (average of producing 10000 messages) - NON_PERSISTENT
+1: 230561 ns -> 0.230561 ms
+2: 215860 ns -> 0.215860 ms
+3: 220069 ns -> 0.220069 ms
+4: 216042 ns -> 0.216042 ms
+5: 221716 ns -> 0.221716 ms
+6: 220714 ns -> 0.220714 ms
+7: 218015 ns -> 0.218015 ms
+8: 225427 ns -> 0.225427 ms
+9: 220048 ns -> 0.220048 ms
+10: 222056 ns -> 0.222056 ms
+Average: 221050.8 ns -> 0.221051 ms
+
+Time of producing single large message with 100000 messages on the queue (average of producing 10000 messages) - NON_PERSISTENT
+1: 743864 ns -> 0.743864 ms
+2: 785576 ns -> 0.785576 ms
+3: 807772 ns -> 0.807772 ms
+4: 721865 ns -> 0.721865 ms
+5: 738024 ns -> 0.738024 ms
+6: 784383 ns -> 0.784383 ms
+7: 758471 ns -> 0.758471 ms
+8: 799350 ns -> 0.799350 ms
+9: 753573 ns -> 0.753573 ms
+10: 799661 ns -> 0.799661 ms
+Average: 769253.9 ns -> 0.769254 ms
+
+****************************************************************************************************
+
+Time of consuming single small message with 100000 messages on the queue (average of consuming 10000 messages)
+1: 36791 ns -> 0.036791 ms
+2: 36483 ns -> 0.036483 ms
+3: 36996 ns -> 0.036996 ms
+4: 40678 ns -> 0.040678 ms
+5: 37936 ns -> 0.037936 ms
+6: 35737 ns -> 0.035737 ms
+7: 35156 ns -> 0.035156 ms
+8: 38227 ns -> 0.038227 ms
+9: 35956 ns -> 0.035956 ms
+10: 37409 ns -> 0.037409 ms
+Average: 37136.9 ns -> 0.037137 ms
+
+Time of consuming single medium message with 100000 messages on the queue (average of consuming 10000 messages)
+1: 114050 ns -> 0.114050 ms
+2: 113154 ns -> 0.113154 ms
+3: 97084 ns -> 0.097084 ms
+4: 171030 ns -> 0.171030 ms
+5: 126477 ns -> 0.126477 ms
+6: 115250 ns -> 0.115250 ms
+7: 107481 ns -> 0.107481 ms
+8: 127319 ns -> 0.127319 ms
+9: 124523 ns -> 0.124523 ms
+10: 199268 ns -> 0.199268 ms
+Average: 129563.6 ns -> 0.129564 ms
+
+Time of consuming single large message with 100000 messages on the queue (average of consuming 10000 messages)
+1: 350797 ns -> 0.350797 ms
+2: 353098 ns -> 0.353098 ms
+3: 320406 ns -> 0.320406 ms
+4: 343216 ns -> 0.343216 ms
+5: 323349 ns -> 0.323349 ms
+6: 331339 ns -> 0.331339 ms
+7: 406583 ns -> 0.406583 ms
+8: 323700 ns -> 0.323700 ms
+9: 320728 ns -> 0.320728 ms
+10: 335285 ns -> 0.335285 ms
+Average: 340850.1 ns -> 0.34085 ms
+
+****************************************************************************************************
+
+Time of consuming single small message (average of consuming 10000 messages) - competing consumers
+1: 42380 ns -> 0.042380 ms
+2: 36503 ns -> 0.036503 ms
+3: 37187 ns -> 0.037187 ms
+4: 36230 ns -> 0.036230 ms
+5: 42412 ns -> 0.042412 ms
+6: 41855 ns -> 0.041855 ms
+7: 38245 ns -> 0.038245 ms
+8: 36546 ns -> 0.036546 ms
+9: 34326 ns -> 0.034326 ms
+10: 37857 ns -> 0.037857 ms
+Average: 38354.1 ns -> 0.038354 ms
+
+Time of consuming single medium message (average of consuming 10000 messages) - competing consumers
+1: 95372 ns -> 0.095372 ms
+2: 105355 ns -> 0.105355 ms
+3: 89029 ns -> 0.089029 ms
+4: 90216 ns -> 0.090216 ms
+5: 118984 ns -> 0.118984 ms
+6: 99681 ns -> 0.099681 ms
+7: 89937 ns -> 0.089937 ms
+8: 99443 ns -> 0.099443 ms
+9: 106836 ns -> 0.106836 ms
+10: 112473 ns -> 0.112473 ms
+Average: 100732.6 ns -> 0.100733 ms
+
+Time of consuming single large message (average of consuming 10000 messages) - competing consumers
+1: 312523 ns -> 0.312523 ms
+2: 326407 ns -> 0.326407 ms
+3: 314057 ns -> 0.314057 ms
+4: 313647 ns -> 0.313647 ms
+5: 307947 ns -> 0.307947 ms
+6: 316698 ns -> 0.316698 ms
+7: 314021 ns -> 0.314021 ms
+8: 288380 ns -> 0.288380 ms
+9: 293973 ns -> 0.293973 ms
+10: 292270 ns -> 0.292270 ms
+Average: 307992.3 ns -> 0.307992 ms
+
+****************************************************************************************************
+
+Time of producing single small message with empty queue (average of producing 10000 messages) - with compression
+1: 28427 ns -> 0.028427 ms
+2: 27292 ns -> 0.027292 ms
+3: 25768 ns -> 0.025768 ms
+4: 24941 ns -> 0.024941 ms
+5: 26392 ns -> 0.026392 ms
+6: 25651 ns -> 0.025651 ms
+7: 26591 ns -> 0.026591 ms
+8: 24483 ns -> 0.024483 ms
+9: 24323 ns -> 0.024323 ms
+10: 24388 ns -> 0.024388 ms
+Average: 25825.6 ns -> 0.025826 ms
+
+Time of producing single medium message with empty queue (average of producing 10000 messages) - with compression
+1: 384552 ns -> 0.384552 ms
+2: 311466 ns -> 0.311466 ms
+3: 312594 ns -> 0.312594 ms
+4: 311922 ns -> 0.311922 ms
+5: 323525 ns -> 0.323525 ms
+6: 440173 ns -> 0.440173 ms
+7: 311210 ns -> 0.311210 ms
+8: 310143 ns -> 0.310143 ms
+9: 309924 ns -> 0.309924 ms
+10: 309475 ns -> 0.309475 ms
+Average: 332498.4 ns -> 0.332498 ms
+
+Time of producing single large message with empty queue (average of producing 10000 messages) - with compression
+1: 1485746 ns -> 1.485746 ms
+2: 1531015 ns -> 1.531015 ms
+3: 1422856 ns -> 1.422856 ms
+4: 1420609 ns -> 1.420609 ms
+5: 1419131 ns -> 1.419131 ms
+6: 1418606 ns -> 1.418606 ms
+7: 1417505 ns -> 1.417505 ms
+8: 1418316 ns -> 1.418316 ms
+9: 1418403 ns -> 1.418403 ms
+10: 1420803 ns -> 1.420803 ms
+Average: 1437299 ns -> 1.437299 ms
+
+****************************************************************************************************
+
+Temp storage usage for 200000 small messages - with compression and NON_PERSISTENT
+0% from 50 gb = ~10 mb
+
+Temp storage usage for 200000 medium messages - with compression and NON_PERSISTENT
+2% from 50 gb = ~1 gb
+
+Temp storage usage for 200000 large messages - with compression and NON_PERSISTENT
+8% from 50 gb = ~4 gb
+
+****************************************************************************************************
+
+Temp storage usage for 200000 small messages - without compression and NON_PERSISTENT
+0% from 50 gb = ~12 mb
+
+Temp storage usage for 200000 medium messages - without compression and NON_PERSISTENT
+3% from 50 gb = ~1.5 gb
+
+Temp storage usage for 200000 large messages - without compression and NON_PERSISTENT
+12% from 50 gb = 6 gb
+
+****************************************************************************************************

@@ -1,7 +1,7 @@
 package pl.jsildatk.masterthesis.common
 
 import org.apache.commons.lang3.RandomStringUtils
-import java.util.*
+import java.util.Date
 
 object MessageProvider {
 
@@ -17,7 +17,9 @@ object MessageProvider {
             lastName = "test",
             age = 12,
             date = Date(),
-            payload = RandomStringUtils.randomAlphabetic(512)
+            payload1 = RandomStringUtils.randomAlphabetic(2048),
+            payload2 = RandomStringUtils.randomAlphabetic(2048),
+            payload3 = RandomStringUtils.randomAlphabetic(4096),
         )
         return SerDe.write(data)
     }
@@ -30,7 +32,9 @@ object MessageProvider {
             age = 23,
             payload1 = RandomStringUtils.randomAlphabetic(1024),
             payload2 = RandomStringUtils.randomAlphabetic(2048),
-            payload3 = RandomStringUtils.randomAlphabetic(4096)
+            payload3 = RandomStringUtils.randomAlphabetic(4096),
+            payload4 = RandomStringUtils.randomAlphabetic(8192),
+            payload5 = RandomStringUtils.randomAlphabetic(16384)
         )
         return SerDe.write(data)
     }
