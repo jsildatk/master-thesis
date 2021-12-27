@@ -1,0 +1,47 @@
+****************************************************************************************************
+
+Time from producing to consuming single small message (no compression): 921325 ns -> 0.921325 ms
+Time from producing to consuming single small message (Gzip): 993476 ns -> 0.993476 ms
+Time from producing to consuming single small message (Snappy): 952606 ns -> 0.952606 ms
+Time from producing to consuming single small message (Lz4): 948302 ns -> 0.948302 ms
+Time from producing to consuming single small message (Zstd): 1261415 ns -> 1.261415 ms
+Time from producing to consuming single small message (2 replication_factor, min_in_sync_replicas, partitions): 1819970 ns -> 1.819970 ms
+Time from producing to consuming single small message (2 replication_factor, min_in_sync_replicas, partitions, 2 consumers): 1281200 ns -> 1.281200 ms
+
+Time from producing to consuming single medium message (no compression): 1393410 ns -> 1.393410 ms
+Time from producing to consuming single medium message (Gzip): 1559297 ns -> 1.559297 ms
+Time from producing to consuming single medium message (Snappy): 1385394 ns -> 1.385394 ms
+Time from producing to consuming single medium message (Lz4): 1332610 ns -> 1.332610 ms
+Time from producing to consuming single medium message (Zstd): 1757703 ns -> 1.757703 ms
+Time from producing to consuming single small message (2 replication_factor, min_in_sync_replicas, partitions): 1882739 ns -> 1.882739 ms
+Time from producing to consuming single small message (2 replication_factor, min_in_sync_replicas, partitions, 2 consumers): 1305726 ns -> 1.305726 ms
+
+Time from producing to consuming single large message (no compression): 2230807 ns -> 2.230807 ms
+Time from producing to consuming single large message (Gzip): 3302380 ns -> 3.302380 ms
+Time from producing to consuming single large message (Snappy): 2370384 ns -> 2.370384 ms
+Time from producing to consuming single large message (Lz4): 2406308 ns -> 2.406308 ms
+Time from producing to consuming single large message (Zstd): 2749864 ns -> 2.749864 ms
+Time from producing to consuming single small message (2 replication_factor, min_in_sync_replicas, partitions): 2296112 ns -> 2.296112 ms
+Time from producing to consuming single small message (2 replication_factor, min_in_sync_replicas, partitions, 2 consumers): 1461128 ns -> 1.461128 ms
+
+****************************************************************************************************
+
+Storage usage for 200000 small messages (no compression): 21.93 mb
+Storage usage for 200000 small messages (Gzip): 25.17 mb
+Storage usage for 200000 small messages (Snappy): 26.13 mb
+Storage usage for 200000 small messages (Lz4): 24.8 mb
+Storage usage for 200000 small messages (Zstd): 24.22 mb
+
+Storage usage for 200000 medium messages (no compression): 1.57 gb
+Storage usage for 200000 medium messages (Gzip): 1.15 gb
+Storage usage for 200000 medium messages (Snappy): 1.57 gb
+Storage usage for 200000 medium messages (Lz4): 1.53 gb
+Storage usage for 200000 medium messages (Zstd): 1.15 gb
+
+Storage usage for 200000 large messages (no compression): 5.98 gb
+Storage usage for 200000 large messages (Gzip): 4.36 gb
+Storage usage for 200000 large messages (Snappy): 5.98 gb
+Storage usage for 200000 large messages (Lz4): 5.98 gb
+Storage usage for 200000 large messages (Zstd): 4.33 gb
+
+****************************************************************************************************
