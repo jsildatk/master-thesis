@@ -30,3 +30,13 @@ Storage usage for 200000 large messages (compression): 4 gb
 Storage usage for 200000 large messages (no compression): 6 gb
 
 ****************************************************************************************************
+
+Throughput - producing (sync): avg - 39.12 mb/s
+Throughput - producing (async): avg - 43.64 mb/s
+
+****************************************************************************************************
+
+Throughput - consuming (sync): avg - 93.59 mb/s
+Throughput - concurrent consuming (sync): avg - 61.18 mb/s
+
+****************************************************************************************************

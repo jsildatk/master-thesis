@@ -14,6 +14,7 @@ object ProducerCreator {
         props[ProducerConfig.CLIENT_ID_CONFIG] = CLIENT_ID
         props[ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG] = ByteArraySerializer::class.java.name
         props[ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG] = ByteArraySerializer::class.java.name
+        props[ProducerConfig.BATCH_SIZE_CONFIG] = BATCH_SIZE
 //        props[ProducerConfig.COMPRESSION_TYPE_CONFIG] = "gzip"
 //        props[ProducerConfig.COMPRESSION_TYPE_CONFIG] = "snappy"
 //        props[ProducerConfig.COMPRESSION_TYPE_CONFIG] = "lz4"

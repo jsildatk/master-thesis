@@ -1,0 +1,37 @@
+****************************************************************************************************
+
+Time from producing to consuming single small message (AT_MOST_ONCE): 793345 ns -> 0.793345 ms
+Time from producing to consuming single small message (AT_LEAST_ONCE): 821746 ns -> 0.821746 ms
+Time from producing to consuming single small message (EXACTLY_ONCE): 1256125 ns -> 1.256125 ms
+
+Time from producing to consuming single medium message (AT_MOST_ONCE): 1031599 ns -> 1.031599 ms
+Time from producing to consuming single medium message (AT_LEAST_ONCE): 1097571 ns -> 1.097571 ms
+Time from producing to consuming single medium message (EXACTLY_ONCE): 1413361 ns -> 1.413361 ms
+
+Time from producing to consuming single large message (AT_MOST_ONCE): 1951965 ns -> 1.951965 ms
+Time from producing to consuming single large message (AT_LEAST_ONCE): 1982420 ns -> 1.982420 ms
+Time from producing to consuming single large message (EXACTLY_ONCE): 2235550 ns -> 2.235550 ms
+
+****************************************************************************************************
+
+Storage usage for 200000 small messages: 10.49 mb
+
+Storage usage for 200000 medium messages: 1.56 gb
+
+Storage usage for 200000 large messages: 5.96 gb
+
+****************************************************************************************************
+
+Throughput - producing (sync): peek - 41.23 mb/s
+Throughput - producing (sync): avg - 40.65 mb/s
+Throughput - producing (async): peek - 44.46 mb/s
+Throughput - producing (async): avg - 43.64 mb/s
+
+****************************************************************************************************
+
+Throughput - consuming (sync): peek - 40.37 mb/s
+Throughput - consuming (sync): avg - 38.41 mb/s
+Throughput - concurrent consuming (sync): peek - 75.37 mb/s
+Throughput - concurrent consuming (sync): avg - 61.18 mb/s
+
+****************************************************************************************************
