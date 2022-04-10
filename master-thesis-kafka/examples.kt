@@ -41,3 +41,7 @@ records.forEach { record ->
   }
 }
 consumer.commitSync()
+
+// consumer groups
+val props = Properties()
+props[ConsumerConfig.GROUP_ID_CONFIG] = "group.id.1"
