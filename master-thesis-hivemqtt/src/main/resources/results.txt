@@ -3,14 +3,17 @@
 Time from producing to consuming single small message (AT_MOST_ONCE): 793345 ns -> 0.793345 ms
 Time from producing to consuming single small message (AT_LEAST_ONCE): 821746 ns -> 0.821746 ms
 Time from producing to consuming single small message (EXACTLY_ONCE): 1256125 ns -> 1.256125 ms
+Time from producing to consuming single small message (AT_MOST_ONCE & PERSISTENT): 1024675 ns -> 1.024675 ms
 
 Time from producing to consuming single medium message (AT_MOST_ONCE): 1031599 ns -> 1.031599 ms
 Time from producing to consuming single medium message (AT_LEAST_ONCE): 1097571 ns -> 1.097571 ms
 Time from producing to consuming single medium message (EXACTLY_ONCE): 1413361 ns -> 1.413361 ms
+Time from producing to consuming single medium message (AT_MOST_ONCE & PERSISTENT): 1194452 ns -> 1.194452 ms
 
 Time from producing to consuming single large message (AT_MOST_ONCE): 1951965 ns -> 1.951965 ms
 Time from producing to consuming single large message (AT_LEAST_ONCE): 1982420 ns -> 1.982420 ms
 Time from producing to consuming single large message (EXACTLY_ONCE): 2235550 ns -> 2.235550 ms
+Time from producing to consuming single large message (AT_MOST_ONCE & PERSISTENT): 2182117 ns -> 2.182117 ms
 
 ****************************************************************************************************
 

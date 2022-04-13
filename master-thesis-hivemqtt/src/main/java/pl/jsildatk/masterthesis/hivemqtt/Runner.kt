@@ -50,7 +50,8 @@ fun testProducingToConsuming(topic: String, messageFunction: () -> ByteArray) {
 
     val pub = client.publishes(MqttGlobalPublishFilter.ALL)
 
-    client.connect()
+//    client.connect()
+    client.connectWith().cleanStart(false).send()
 
     client.subscribeWith()
         .topicFilter(topic)
